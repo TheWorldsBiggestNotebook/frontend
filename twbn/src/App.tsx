@@ -1,11 +1,11 @@
-import { ThemeProvider } from "@/components/theme-provider"
-import { Button } from "@/components/ui/button"
-import { ModeToggle } from "./components/ui/mode-toggle"
-import { useState } from "react"
-import "./App.css"
-import heroImg from "./assets/hero.png"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "./assets/vite.svg"
+import { ThemeProvider } from '@/components/theme-provider'
+import { Button } from '@/components/ui/button'
+import { useState } from 'react'
+import './App.css'
+import heroImg from './assets/hero.png'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import { ModeToggle } from './components/ui/mode-toggle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,10 +25,7 @@ function App() {
           </p>
         </div>
         <ModeToggle />
-        <Button
-          variant="default"
-          onClick={() => setCount((count) => count + 1)}
-        >
+        <Button variant="default" onClick={() => setCount((count) => count + 1)}>
           Count is {count}
         </Button>
       </section>
@@ -66,11 +63,7 @@ function App() {
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
+                <svg className="button-icon" role="presentation" aria-hidden="true">
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
                 GitHub
@@ -78,11 +71,7 @@ function App() {
             </li>
             <li>
               <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
+                <svg className="button-icon" role="presentation" aria-hidden="true">
                   <use href="/icons.svg#discord-icon"></use>
                 </svg>
                 Discord
@@ -90,11 +79,7 @@ function App() {
             </li>
             <li>
               <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
+                <svg className="button-icon" role="presentation" aria-hidden="true">
                   <use href="/icons.svg#x-icon"></use>
                 </svg>
                 X.com
@@ -102,11 +87,7 @@ function App() {
             </li>
             <li>
               <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
+                <svg className="button-icon" role="presentation" aria-hidden="true">
                   <use href="/icons.svg#bluesky-icon"></use>
                 </svg>
                 Bluesky
