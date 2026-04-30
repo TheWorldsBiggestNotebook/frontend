@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "cd .. && husky ./twbn/.husky"
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.2.10",
